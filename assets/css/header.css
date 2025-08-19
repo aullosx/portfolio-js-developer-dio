@@ -19,7 +19,7 @@
     right: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(/assets/img/icons/header.svg);
+    background-image: url(../img/icons/header.svg);
 }
 
 .header .photo{
@@ -70,20 +70,20 @@
 }
 
 .information .profile::before{
-    background-image: url(/assets/img/icons/photo.svg);
+    background-image: url(../img/icons/photo.svg);
     background-repeat: no-repeat;
 }
 
 .information .location::before{
-    background-image: url(/assets/img/icons/location.svg);
+    background-image: url(../img/icons/location.svg);
      background-repeat: no-repeat;
 }
 .information .job::before{
-    background-image: url(/assets/img/icons/job.svg);
+    background-image: url(../img/icons/job.svg);
      background-repeat: no-repeat;
 }
 .information .email::before{
-    background-image: url(/assets/img/icons/email.svg);
+    background-image: url(../img/icons/email.svg);
      background-repeat: no-repeat;
 }
 

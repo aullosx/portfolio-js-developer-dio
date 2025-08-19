@@ -49,7 +49,7 @@
     display: inline-block;
     width: 1.5rem;
     height: 1.5rem;
-    background-image: url(/assets/img/icons/arrow.svg);
+    background-image: url(../img/icons/arrow.svg);
     background-size: contain;
     background-repeat: no-repeat;
     transition: .25s;

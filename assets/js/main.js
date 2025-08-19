@@ -1,6 +1,10 @@
-
+function updateProfileInfo(profileData) {
+    const photo = document.getElementById('profile.photo')
+    photo.src = profileData.photo
+    photo.alt = profileData.name
+}
 
 (async () => {
-    const profileDate = await fetchProfiledate()
-    console.log(profileDate)
-}) ()
+    const profileData = await fetchProfileData()
+    updateProfileInfo(profileData)
+})()

@@ -1,5 +1,5 @@
 
-.lenguagens {
+.lenguages {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -11,7 +11,7 @@
 }
 
 
-.lenguagens li{
+.lenguages li{
     padding-right: 1rem;
     display: flex;
     flex-direction: row;
@@ -21,13 +21,13 @@
 
 }
 
-.lenguagens li::before{
+.lenguages li::before{
     display: inline-block;
     margin-right: .5rem ;
     width: .8rem;
     height: .6rem;
     content: ' ';
-    background-image: url(/assets/img/icons/check.svg);
+    background-image: url(../img/icons/check.svg);
     background-repeat: no-repeat;
     background-size: contain;
     
