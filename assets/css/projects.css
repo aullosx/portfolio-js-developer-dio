@@ -1,6 +1,6 @@
 
 
-.projects{
+.project{
     display: flex;
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@
 }
 
 
-.projects li{
+.project li{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -20,7 +20,7 @@
 }
 
 
-.projects li .title{
+.project li .title{
     font-weight: 700;
     font-size: 1.125rem;
     display: flex;
@@ -30,7 +30,7 @@
     margin-bottom: .5rem;
 }
 
-.projects li .title.github::before{
+.project li .title.github::before{
     display: inline-block;
     margin-right: .5rem ;
     width: .8rem;
@@ -41,11 +41,11 @@
     background-size: contain;
 }
 
-.projects a{
+.project a{
     text-decoration: none;
     color: #fff;
 }
 
-.projects a:hover{
+.project a:hover{
     text-decoration: underline;
 }
