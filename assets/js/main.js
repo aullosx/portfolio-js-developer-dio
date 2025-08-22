@@ -58,9 +58,7 @@ function updateExperience (profileData){
         `<li>
             <h3 class="title "> ${experience.name}</h3>
             <p class="period">${experience.period}</p>
-            <ul>
-                <li>${experience.description}</li>
-            </ul>
+            <p>${experience.description}</p>
 
         </li>
         `).join('')
