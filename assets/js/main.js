@@ -59,10 +59,30 @@ function updateExperience (profileData){
             <h3 class="title "> ${experience.name}</h3>
             <p class="period">${experience.period}</p>
             <p>${experience.description}</p>
-
         </li>
         `).join('')
 }
+
+function formatDescription(description) {
+    // Se for array, cria uma lista; senão, retorna como está
+    if (Array.isArray(description)) {
+        return `<ul>${description.map(item => `<li>${item}</li>`).join('')}</ul>`;
+    }
+    return `<p>${description}</p>`;
+}
+
+function updateExperience(profileData) {
+    const professionalExperiences = document.getElementById('professionalExperience');
+    professionalExperiences.innerHTML = profileData.professionalExperience.map(experience =>
+        `<li>
+            <h3 class="title ">${experience.name}</h3>
+            <p class="period">${experience.period}</p>
+            ${formatDescription(experience.description)}
+        </li>`
+    ).join('');
+}
+
+
 
 (async () => {
     const profileData = await fetchProfileData()
