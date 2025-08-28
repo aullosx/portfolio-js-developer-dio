@@ -37,7 +37,7 @@
       "Facilidade em Comunicação",
       "Trabalho em equipe",
       "Flexibilidade",
-      "Organizaço"
+      "Organização"
     ]
   },
   "languages": [
@@ -53,6 +53,11 @@
     {
       "name": "Clone do HboMax Dio",
       "url": "https://github.com/aullosx/hbomax",
+      "github": true
+    },
+    {
+      "name": "Weather App - Previsão do Tempo",
+      "url": "https://github.com/aullosx/Clima",
       "github": true
     }
   ],
